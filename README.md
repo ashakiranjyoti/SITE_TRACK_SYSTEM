@@ -50,16 +50,33 @@ automation/
 │   ├── LoginPage.js       # Login page POM
 │   ├── DashboardPage.js   # Dashboard page POM
 │   ├── CreateSitePage.js  # Create site page POM
+│   ├── AddTubewellPage.js # Add Tubewell page POM
+│   ├── DailyStatusEditorPage.js # Daily Status Editor page POM
+│   ├── ViewTubewellPage.js # View Tubewell page POM
+│   ├── SiteReportPage.js  # Site Report page POM
+│   ├── LcsSiteReportPage.js # LCS Site Report page POM
+│   ├── UserWiseReportPage.js # User-wise Report page POM
+│   ├── DateWiseReportPage.js # Date-wise Report page POM
 │   └── ViewSitePage.js    # View site page POM
 ├── tests/                 # E2E test files
 │   ├── login.spec.js      # Login page tests
 │   ├── dashboard.spec.js  # Dashboard tests
 │   ├── site-management.spec.js  # Site management tests
+│   ├── edit-management.spec.js  # Edit management tests
+│   ├── role-access.spec.js # Role-based access tests
+│   ├── items-master.spec.js # Items Master CRUD tests
+│   ├── lcs-items-master.spec.js # LCS Items Master CRUD tests
+│   ├── users.spec.js      # Users CRUD tests
+│   ├── daily-status.spec.js # Daily Status Editor tests
+│   ├── reports-site-report.spec.js # Site Report tests
+│   ├── reports-lcs-site-report.spec.js # LCS Site Report tests
+│   ├── reports-user-wise-report.spec.js # User-wise Report tests
+│   ├── reports-date-wise-report.spec.js # Date-wise Report tests
 │   └── navigation.spec.js  # Navigation and user flow tests
 ├── utils/                 # Utility files
-│   ├── fixtures.js       # Playwright fixtures
-│   ├── testData.js       # Test data constants
-│   └── helpers.js        # Helper functions
+│   ├── auth.js            # Login/logout utilities
+│   ├── testData.js        # Test data constants
+│   └── helpers.js         # Helper functions
 ├── playwright.config.js  # Playwright configuration
 ├── package.json          # npm configuration
 └── README.md            # This file
