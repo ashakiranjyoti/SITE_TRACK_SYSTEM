@@ -1,5 +1,9 @@
 # SiteTrack Asset Management - Automation Testing (Beginner Friendly)
 
+![Playwright](https://img.shields.io/badge/Playwright-1.40-green)
+![Tests](https://img.shields.io/badge/tests-50%2B-blue)
+![License](https://img.shields.io/badge/license-ISC-orange)
+
 This directory contains Playwright E2E automation tests for the SiteTrack Asset Management System.
 
 If you are a beginner:
